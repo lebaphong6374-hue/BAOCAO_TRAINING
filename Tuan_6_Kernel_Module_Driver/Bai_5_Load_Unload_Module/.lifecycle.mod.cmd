@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_5_Load_Unload_Module/lifecycle.mod := printf '%s\n'   lifecycle.o | awk '!x[$$0]++ { print("/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_5_Load_Unload_Module/"$$0) }' > /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_5_Load_Unload_Module/lifecycle.mod

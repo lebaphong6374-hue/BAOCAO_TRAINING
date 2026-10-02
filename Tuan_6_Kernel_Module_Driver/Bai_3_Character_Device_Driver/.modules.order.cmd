@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_3_Character_Device_Driver/modules.order := {   echo /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_3_Character_Device_Driver/mychardev.o; :; } > /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_3_Character_Device_Driver/modules.order

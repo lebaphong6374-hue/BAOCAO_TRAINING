@@ -1,0 +1,60 @@
+PHAN TICH KERNEL OOPS
+=====================
+
+1. Loai loi:
+NULL pointer dereference
+
+2. Dia chi loi:
+0x0000000000000000
+
+3. Memory fault:
+Kernel thuc hien write access vao dia chi bo nho khong hop le.
+
+4. CPU:
+CPU 2
+
+5. Process:
+PID: 5421
+Comm: bash
+
+6. Function loi:
+oops_write()
+
+7. Offset:
++0x24
+
+8. Module:
+oops_demo
+
+9. Call path:
+
+write()
+  |
+  v
+entry_SYSCALL_64_after_hwframe
+  |
+  v
+do_syscall_64
+  |
+  v
+__x64_sys_write
+  |
+  v
+ksys_write
+  |
+  v
+vfs_write
+  |
+  v
+oops_write()
+  |
+  v
+NULL pointer dereference
+  |
+  v
+Kernel Oops
+
+10. Ket luan:
+
+Driver oops_demo co the da truy cap mot con tro NULL
+trong ham oops_write(), dan den Page Fault va Kernel Oops.

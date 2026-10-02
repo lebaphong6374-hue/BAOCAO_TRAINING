@@ -1,0 +1,3 @@
+/d/BSP_Training/Tuan_3_Makefile/Bai_2_CMake/buid/CMakeFiles/main.dir
+/d/BSP_Training/Tuan_3_Makefile/Bai_2_CMake/buid/CMakeFiles/edit_cache.dir
+/d/BSP_Training/Tuan_3_Makefile/Bai_2_CMake/buid/CMakeFiles/rebuild_cache.dir

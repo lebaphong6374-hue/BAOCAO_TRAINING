@@ -1,0 +1,1 @@
+/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_4_Device_Node_Ioctl/mychardev_ioctl.o

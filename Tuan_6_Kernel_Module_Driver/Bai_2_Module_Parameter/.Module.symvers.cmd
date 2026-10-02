@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_2_Module_Parameter/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_2_Module_Parameter/Module.symvers -T /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_2_Module_Parameter/modules.order -i Module.symvers -e 

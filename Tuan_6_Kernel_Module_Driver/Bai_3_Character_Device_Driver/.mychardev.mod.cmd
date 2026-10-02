@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_3_Character_Device_Driver/mychardev.mod := printf '%s\n'   mychardev.o | awk '!x[$$0]++ { print("/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_3_Character_Device_Driver/"$$0) }' > /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_3_Character_Device_Driver/mychardev.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_4_Device_Node_Ioctl/mychardev_ioctl.mod := printf '%s\n'   mychardev_ioctl.o | awk '!x[$$0]++ { print("/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_4_Device_Node_Ioctl/"$$0) }' > /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_4_Device_Node_Ioctl/mychardev_ioctl.mod

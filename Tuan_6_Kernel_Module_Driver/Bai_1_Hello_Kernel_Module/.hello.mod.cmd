@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_1_Hello_Kernel_Module/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_1_Hello_Kernel_Module/"$$0) }' > /home/do/Downloads/BSP_Training/Tuan_6_Kernel_Module_Driver/Bai_1_Hello_Kernel_Module/hello.mod

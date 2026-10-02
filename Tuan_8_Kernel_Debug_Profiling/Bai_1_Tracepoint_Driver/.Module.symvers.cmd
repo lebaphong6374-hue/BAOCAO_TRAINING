@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_8_Kernel_Debug_Profiling/Bai_1_Tracepoint_Driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/do/Downloads/BSP_Training/Tuan_8_Kernel_Debug_Profiling/Bai_1_Tracepoint_Driver/Module.symvers -T /home/do/Downloads/BSP_Training/Tuan_8_Kernel_Debug_Profiling/Bai_1_Tracepoint_Driver/modules.order -i Module.symvers -e 

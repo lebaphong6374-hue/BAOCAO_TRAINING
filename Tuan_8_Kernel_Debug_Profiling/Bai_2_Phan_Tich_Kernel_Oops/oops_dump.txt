@@ -1,0 +1,29 @@
+BUG: kernel NULL pointer dereference, address: 0000000000000000
+#PF: supervisor write access in kernel mode
+#PF: error_code(0x0002) - not-present page
+
+Oops: 0002 [#1] PREEMPT SMP NOPTI
+
+CPU: 2 PID: 5421 Comm: bash
+Tainted: G           O       6.8.0-40-generic
+
+RIP: 0010:oops_write+0x24/0x50 [oops_demo]
+
+RSP: 0018:ffffb1234567fdc0
+RAX: 0000000000000000
+RBX: ffff912345678900
+RCX: 0000000000000005
+RDX: 0000000000000000
+
+Call Trace:
+ <TASK>
+ vfs_write+0x120/0x400
+ ksys_write+0x70/0xf0
+ __x64_sys_write+0x19/0x20
+ do_syscall_64+0x82/0x160
+ entry_SYSCALL_64_after_hwframe+0x78/0x80
+ </TASK>
+
+Modules linked in: oops_demo(OE)
+
+---[ end trace 0000000000000000 ]---

@@ -1,0 +1,1 @@
+savedcmd_/home/do/Downloads/BSP_Training/Tuan_8_Kernel_Debug_Profiling/Bai_1_Tracepoint_Driver/week8_driver.mod := printf '%s\n'   week8_driver.o | awk '!x[$$0]++ { print("/home/do/Downloads/BSP_Training/Tuan_8_Kernel_Debug_Profiling/Bai_1_Tracepoint_Driver/"$$0) }' > /home/do/Downloads/BSP_Training/Tuan_8_Kernel_Debug_Profiling/Bai_1_Tracepoint_Driver/week8_driver.mod

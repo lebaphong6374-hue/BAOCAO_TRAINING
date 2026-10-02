@@ -1,0 +1,12 @@
+# BÀI 1 — ĐỌC VÀ PHÂN TÍCH DEVICE TREE TRÊN RASPBERRY PI 3 MODEL B+
+
+## 1. Mục tiêu
+
+Bài thực hành nhằm làm quen với Device Tree trong hệ thống Embedded Linux trên Raspberry Pi 3 Model B+.
+
+Các nội dung thực hiện:
+
+- Xác định Device Tree được sử dụng trên board thực tế.
+- Xác định file Device Tree Blob tương ứng với Raspberry Pi 3 Model B+.
+- Sao chép file DTB từ Raspberry Pi về máy phát triển Ubuntu.
+- Sử dụng Device Tree Compiler để chuyển đổi DTB 
